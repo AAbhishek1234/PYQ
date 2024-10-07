@@ -1,0 +1,36 @@
+/* Add content styling */
+.content-container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Darken background to make text readable */
+    border-radius: 10px;
+    margin-top: 20rem;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .view-all-btn, .view-make-btn {
+    margin-top: 10px;
+  }
+  
+  /* Make it responsive */
+  @media (max-width: 768px) {
+    .image-container {
+      height: 50vh; /* Each section takes 50% of the screen height on mobile */
+    }
+  
+    .content-container {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Stack the content vertically on very small screens */
+    .image-container {
+      height: 100vh; /* Each section takes full height on small devices */
+    }
+  }
+  
